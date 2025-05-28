@@ -32,7 +32,7 @@
 
 💡 Hemen başlamak için aşağı kaydır!
 ``
-(Windows 10 / 11)
+(Windows 10 / 11)----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :: Python indir ve kur: https://www.python.org/downloads/
 :: "Add Python to PATH" seçeneğini kurulumda işaretle!
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 python sherlock.py
 
 
-(Kali Linux / Ubuntu / Debian)
+(Kali Linux / Ubuntu / Debian)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Gerekli paketleri kur
 sudo apt update
 sudo apt install python3 python3-pip git -y
@@ -56,7 +56,7 @@ pip3 install -r requirements.txt
 python3 sherlock.py
 
 
-(macOS)
+(macOS)--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Homebrew yüklü değilse:
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -70,7 +70,7 @@ pip3 install -r requirements.txt
 python3 sherlock.py
 
 
-(Android (Termux)
+(Android (Termux)----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Termux'u aç ve aşağıdakileri sırayla çalıştır
 
 pkg update && pkg upgrade -y
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 python sherlock.py
 
 
-(Arch Linux / Manjaro / Garuda)
+(Arch Linux / Manjaro / Garuda)--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Python, pip ve git kur
 sudo pacman -S python python-pip git
 
@@ -92,6 +92,3 @@ git clone https://github.com/kullaniciadi/sherlock-plus.git
 cd sherlock-plus
 pip install -r requirements.txt
 python sherlock.py
-
-
-
